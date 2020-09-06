@@ -1,0 +1,68 @@
+/*
+GLOBAL
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #F0F4F5
+}
+/*
+Header
+*/
+#header-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+/*
+BMI Calculator
+*/
+#calculator-container {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff; 
+    border: 5px solid #005eb8;
+}
+
+#calculator-header {
+    font-size: 20px;
+    text-align: center;
+    background-color: #005eb8;
+    color: #ffffff; 
+    padding: 15px;
+}
+
+#height-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+#feet-container {
+
+}
+
+#inches-container {
+
+
+}
+
+input {
+}
+
+label {
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
