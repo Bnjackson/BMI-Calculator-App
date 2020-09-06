@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>BMI calculator</title>
+        <title>BMI Healthy Weight calculator</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
         <link href="/CSS/style.css" type='text/css' rel='stylesheet'>
     </head>
     <body>
+      <header>
+        <div id="header-container">
+          <h1>BMI Healthy Weight Calculator</h1>
+          <p>Use this calculator to check your body mass index (BMI) and find out if you're a healthy weight.</p>
+        </div>
+      </header>
+      <section id="calculator-section">
+        <div id="calculator-container">
+          <div id="calculator-header">
+            <h2>BMI calculator</h2>
+          </div>
+          <h3>Height</h3>
+          <div id="height-container">
+            <div id="feet-container">
+              <label for="height-feet-input">Feet</label>
+              <br>
+              <input id="height-feet-input" type="text" inputmode="numeric" alt="Height, feet">
+            </div>
+            <div id="inches-container">
+              <label for="height-inches-input">Inches</label>
+              <br>
+              <input id="height-inches-input" type="text" inputmode="numeric" alt="Height, inches">
+            </div>
+          </div>
+          <a id="switch-cm" href="#">Switch to cm</a>
+          <div id="weight-container">
+            <h3>Weight</h3>
+            <div>
+              <label for="weight-stone-input">Stone</label>
+              <input id="weight-stone-input" type="text" inputmode="numeric" alt="Weight, stone">
+            </div>
+            <div>
+              <label for="weight-pounds-input">Pounds</label>
+              <input id="weight-pounds-input" type="text" type="text" inputmode="numeric" alt="Weight, pounds">
+            </div>
+            <a href="#">Switch to kg</a>
+          </div>
+          <div id=calculate-BMI-container>
+            <input type="button" value="Calculate Your BMI">
+          </div>
+        </div>
+      </section>
+      <section id="what-is-bmi">
+        <div>
+          <h4>What is BMI?</h4>
+          <p>Body mass index (BMI) is a way of measuring whether you are a healthy weight for your height. It is used to categorise someone as being underweight, a healthy weight, overweight, or obese.</p>
+          <span>The categories for BMI ranges are as follows:</span>
+          <div>
+            <ul>
+              <li>Underweight - below 18.5</li>
+              <li>Normal or healthy weight - 18.5-24.9</li>
+              <li>Overweight - 25-29.9</li>
+              <li>Obese - 30 and above</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer>
+
+      </footer>
       <script type='text/javascript' src='/Scripts/script.js'></script>
     </body>
 </html>
