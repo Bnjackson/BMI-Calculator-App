@@ -19,34 +19,38 @@
           <div id="calculator-header">
             <h2>BMI calculator</h2>
           </div>
-          <div id="height-container">
-            <h3>Height</h3>
-            <label for="height-feet-input">Feet</label>
-            <input id="height-feet-input" type="text" inputmode="numeric" alt="Height, feet">
-            <label for="height-inches-input">Inches</label>
-            <input id="height-inches-input" type="text" inputmode="numeric" alt="Height, inches">
-            <a id="switch-cm" href="#">Switch to cm</a>
-          </div>
-          <div id="weight-container">
-            <h3>Weight</h3>
+          <form method="POST" id="bmi-calculator">
+            <div id="height-container">
+              <h3>Height</h3>
+              <label for="height-feet-input">Feet</label>
+              <input class="input-calculator" id="height-feet-input" type="text" inputmode="numeric" alt="Height, feet">
+              <label for="height-inches-input">Inches</label>
+              <input class="input-calculator" id="height-inches-input" type="text" inputmode="numeric" alt="Height, inches">
+              <br>
+              <a id="switch-cm" href="#">Switch to cm</a>
+            </div>
+            <div id="weight-container">
+              <h3>Weight</h3>
               <label for="weight-stone-input">Stone</label>
-              <input id="weight-stone-input" type="text" inputmode="numeric" alt="Weight, stone">
+              <input class="input-calculator" id="weight-stone-input" type="text" inputmode="numeric" alt="Weight, stone">
               <label for="weight-pounds-input">Pounds</label>
-              <input id="weight-pounds-input" type="text" type="text" inputmode="numeric" alt="Weight, pounds">
-            <a href="#">Switch to kg</a>
-          </div>
-          <div id=calculate-BMI-container>
-            <input type="button" value="Calculate Your BMI">
-          </div>
+              <input class="input-calculator" id="weight-pounds-input" type="text" type="text" inputmode="numeric" alt="Weight, pounds">
+              <br>
+              <a href="#">Switch to kg</a>
+            </div>
+            <div id=calculate-BMI-container>
+              <input type="submit" value="Calculate Your BMI">
+            </div>
+          </form>
         </div>
       </section>
-      <section id="what-is-bmi">
+      <section id="BMI-info-section">
         <div>
           <h4>What is BMI?</h4>
           <p>Body mass index (BMI) is a way of measuring whether you are a healthy weight for your height. It is used to categorise someone as being underweight, a healthy weight, overweight, or obese.</p>
           <span>The categories for BMI ranges are as follows:</span>
           <div>
-            <ul>
+            <ul id="BMI-list">
               <li>Underweight - below 18.5</li>
               <li>Normal or healthy weight - 18.5-24.9</li>
               <li>Overweight - 25-29.9</li>
