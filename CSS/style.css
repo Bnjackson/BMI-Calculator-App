@@ -45,10 +45,10 @@ BMI Calculator
     width: 90%;
     margin: 0 auto;
     padding: 10px 10px;
+    border-bottom: 1px #f4f4f4 solid;
 }
 
 #feet-container {
-
 }
 
 #inches-container {
