@@ -22,24 +22,32 @@
           <form method="POST" id="bmi-calculator">
             <div id="height-container">
               <h3>Height</h3>
-              <label for="height-feet-input">Feet</label>
-              <input class="input-calculator" id="height-feet-input" type = "number" inputmode="numeric" alt="Height, feet">
-              <label for="height-inches-input">Inches</label>
-              <input class="input-calculator" id="height-inches-input" type="number" inputmode="numeric" alt="Height, inches">
+              <div>
+                <label for="height-feet-input">Feet</label>
+                <input class="input-calculator" id="height-feet-input" type = "number" inputmode="numeric" alt="Height, feet">
+              </div>
+              <div>
+                <label for="height-inches-input">Inches</label>
+                <input class="input-calculator" id="height-inches-input" type="number" inputmode="numeric" alt="Height, inches">
+              </div>
               <br>
               <a id="switch-cm" href="#">Switch to cm</a>
             </div>
             <div id="weight-container">
               <h3>Weight</h3>
-              <label for="weight-stone-input">Stone</label>
-              <input class="input-calculator" id="weight-stone-input" type="number" inputmode="numeric" alt="Weight, stone">
-              <label for="weight-pounds-input">Pounds</label>
-              <input class="input-calculator" id="weight-pounds-input" type="number" inputmode="numeric" alt="Weight, pounds">
+              <div>
+                <label for="weight-stone-input">Stone</label>
+                <input class="input-calculator" id="weight-stone-input" type="number" inputmode="numeric" alt="Weight, stone">
+              </div>
+              <div>
+                <label for="weight-pounds-input">Pounds</label>
+                <input class="input-calculator" id="weight-pounds-input" type="number" inputmode="numeric" alt="Weight, pounds">
+              </div>
               <br>
               <a href="#">Switch to kg</a>
             </div>
             <div id=calculate-BMI-container>
-              <input type="submit" value="Calculate Your BMI">
+              <input id="button-submit" type="submit" value="Calculate Your BMI">
             </div>
           </form>
         </div>
