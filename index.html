@@ -30,8 +30,6 @@
                 <label for="height-inches-input">Inches</label>
                 <input class="input-calculator" id="height-inches-input" type="number" inputmode="numeric" alt="Height, inches">
               </div>
-              <br>
-              <a id="switch-cm" href="#">Switch to cm</a>
             </div>
             <div id="weight-container">
               <h3>Weight</h3>
@@ -43,20 +41,25 @@
                 <label for="weight-pounds-input">Pounds</label>
                 <input class="input-calculator" id="weight-pounds-input" type="number" inputmode="numeric" alt="Weight, pounds">
               </div>
-              <br>
-              <a href="#">Switch to kg</a>
             </div>
             <div id=calculate-BMI-container>
               <input id="button-submit" type="submit" value="Calculate Your BMI">
             </div>
           </form>
+          <div class="BMI-result-container" id="BMI-result-container">
+            <div class="BMI-result" id="BMI-result">
+              <h2>BMI = <span id="BMI-number"></span></h2>
+              <p>You are in the <span id="weight-range"></span> range.</p>
+            </div>
+          </div>
         </div>
       </section>
+
       <section id="BMI-info-section">
         <div>
           <h4>What is BMI?</h4>
           <p>Body mass index (BMI) is a way of measuring whether you are a healthy weight for your height. It is used to categorise someone as being underweight, a healthy weight, overweight, or obese.</p>
-          <span>The categories for BMI ranges are as follows:</span>
+          <h3>The categories for BMI ranges are as follows:</h3>
           <div>
             <ul id="BMI-list">
               <li>Underweight - below 18.5</li>
